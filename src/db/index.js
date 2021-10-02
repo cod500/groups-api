@@ -8,7 +8,7 @@ export { getGroup } from './getGroup.js';
 export { createGroup } from './createGroup.js';
 export { getMemberPopulatedGroup } from './getMemberPopulatedGroup.js';
 export { getMessagesForGroup } from './getMessagesForGroup.js';
-export { getOwnerPopulatedGroup } from './getOwnerPopulatedGroup';
+export { getOwnerPopulatedGroup } from './getOwnerPopulatedGroup.js';
 export { getRequestsForGroup } from './getRequestsForGroup.js';
 export { getUser } from './getUser.js';
 export { getUserGroups } from './getUserGroups.js';
