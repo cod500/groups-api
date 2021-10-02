@@ -1,4 +1,6 @@
-const { MongoClient } = require('mongodb');
+import mongodb from 'mongodb';
+
+const { MongoClient } = mongodb;
 
 const DB_NAME = 'members-groups';
 
