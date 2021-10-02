@@ -6,7 +6,7 @@ import { createUserRoute } from './createUserRoute.js';
 import { getAllGroupsRoute } from './getAllGroupsRoute.js';
 import { getGroupRoute } from './getGroupRoute.js';
 import { getGroupMessagesRoute } from './getGroupMessagesRoute.js';
-import { getJoinGroupRequestsRoute } from './getJoinGroupRequestsRoute';
+import { getJoinGroupRequestsRoute } from './getJoinGroupRequestsRoute.js';
 import { getUserGroupsRoute } from './getUserGroupsRoute.js';
 import { rejectRequestRoute } from './rejectRequestRoute.js';
 
