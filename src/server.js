@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import * as admin from 'firebase-admin';
+import admin from 'firebase-admin';
 import credentials from './credentials.json';
 import { db } from './db/db.js';
 import { routes } from './routes/index.js';
