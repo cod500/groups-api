@@ -1,4 +1,4 @@
-import { getAllGroups } from '../db';
+import { getAllGroups } from '../db/db.js';
 
 export const getAllGroupsRoute = {
     method: 'get',

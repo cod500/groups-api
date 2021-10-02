@@ -1,14 +1,14 @@
-import { acceptRequestRoute } from './acceptRequestRoute';
-import { createGroupRoute } from './createGroupRoute';
-import { createRequestRoute } from './createRequestRoute';
-import { createMessageRoute } from './createMessageRoute';
-import { createUserRoute } from './createUserRoute';
-import { getAllGroupsRoute } from './getAllGroupsRoute';
-import { getGroupRoute } from './getGroupRoute';
-import { getGroupMessagesRoute } from './getGroupMessagesRoute';
+import { acceptRequestRoute } from './acceptRequestRoute.js';
+import { createGroupRoute } from './createGroupRoute.js';
+import { createRequestRoute } from './createRequestRoute.js';
+import { createMessageRoute } from './createMessageRoute.js';
+import { createUserRoute } from './createUserRoute.js';
+import { getAllGroupsRoute } from './getAllGroupsRoute.js';
+import { getGroupRoute } from './getGroupRoute.js';
+import { getGroupMessagesRoute } from './getGroupMessagesRoute.js';
 import { getJoinGroupRequestsRoute } from './getJoinGroupRequestsRoute';
-import { getUserGroupsRoute } from './getUserGroupsRoute';
-import { rejectRequestRoute } from './rejectRequestRoute';
+import { getUserGroupsRoute } from './getUserGroupsRoute.js';
+import { rejectRequestRoute } from './rejectRequestRoute.js';
 
 export const routes = [
     acceptRequestRoute,

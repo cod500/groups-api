@@ -1,4 +1,4 @@
-import { acceptRequest, getRequestsForGroup, getGroup } from '../db';
+import { acceptRequest, getRequestsForGroup, getGroup } from '../db/index.js';
 import admin from 'firebase-admin';
 
 export const acceptRequestRoute = {

@@ -1,4 +1,4 @@
-import { getGroup, addMessageToGroup, getMessagesForGroup } from '../db';
+import { getGroup, addMessageToGroup, getMessagesForGroup } from '../db/index.js';
 import admin from 'firebase-admin';
 
 export const createMessageRoute = {

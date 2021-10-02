@@ -1,6 +1,6 @@
-import { db } from './db';
-import { getMemberPopulatedGroup } from './getMemberPopulatedGroup';
-import { getRequestsForGroup } from './getRequestsForGroup';
+import { db } from './db/db.js';
+import { getMemberPopulatedGroup } from './getMemberPopulatedGroup.js';
+import { getRequestsForGroup } from './getRequestsForGroup.js';
 
 export const getOwnerPopulatedGroup = async (groupId) => {
     const group = await getMemberPopulatedGroup(groupId);

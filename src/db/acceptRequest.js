@@ -1,4 +1,4 @@
-import { db } from './db';
+import { db } from './db/db.js';
 
 export const acceptRequest = async (requestId) => {
     const connection = db.getConnection();

@@ -1,4 +1,4 @@
-import { db } from './db';
+import { db } from './db/db.js';
 
 export const rejectRequest = async (requestId) => {
     const connection = db.getConnection();

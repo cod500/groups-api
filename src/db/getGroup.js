@@ -1,5 +1,5 @@
-import { db } from './db';
-import { getUser } from './getUser';
+import { db } from './db/db.js';
+import { getUser } from './getUser.js';
 
 export const getGroup = async (groupId) => {
     const connection = db.getConnection();

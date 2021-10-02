@@ -1,5 +1,5 @@
 import admin from 'firebase-admin';
-import { createGroup } from '../db';
+import { createGroup } from '../db/index.js';
 
 export const createGroupRoute = {
     method: 'post',

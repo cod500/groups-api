@@ -1,5 +1,5 @@
 import admin from 'firebase-admin';
-import { getGroup, getRequestsForGroup } from '../db';
+import { getGroup, getRequestsForGroup } from '../db/index.js';
 
 export const getJoinGroupRequestsRoute = {
     method: 'get',

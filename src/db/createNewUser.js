@@ -1,4 +1,4 @@
-import { db } from './db';
+import { db } from './db/db.js';
 
 export const createNewUser = async (user) => {
     const connection = db.getConnection();

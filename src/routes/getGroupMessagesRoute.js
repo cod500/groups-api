@@ -1,5 +1,5 @@
 import admin from 'firebase-admin';
-import { getGroup, getMessagesForGroup } from '../db';
+import { getGroup, getMessagesForGroup } from '../db/index.js';
 
 export const getGroupMessagesRoute = {
     method: 'get',

@@ -1,4 +1,4 @@
-import { createNewUser } from '../db';
+import { createNewUser } from '../db/index.js';
 export const createUserRoute = {
     method: 'post',
     path: '/sign-up',

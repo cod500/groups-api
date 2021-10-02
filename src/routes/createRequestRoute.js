@@ -1,4 +1,4 @@
-import { createJoinRequest } from '../db';
+import { createJoinRequest } from '../db/index.js';
 import admin from 'firebase-admin';
 
 

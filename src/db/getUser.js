@@ -1,4 +1,4 @@
-import { db } from './db';
+import { db } from './db/db.js';
 
 export const getUser = async (id) => {
     const connection = db.getConnection();
