@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import * as admin from 'firebase-admin';
 import credentials from './credentials.json';
-import { db } from './db/index';
+import { db } from './db/index.js';
 import { routes } from './routes/index.js';
 import dotenv from 'dotenv';
 
