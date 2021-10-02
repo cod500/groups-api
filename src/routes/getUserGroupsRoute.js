@@ -1,4 +1,4 @@
-import * as admin from 'firebase-admin';
+import admin from 'firebase-admin';
 import { getUserGroups } from '../db/index.js';
 
 export const getUserGroupsRoute = {
