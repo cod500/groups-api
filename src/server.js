@@ -14,9 +14,9 @@ dotenv.config();
 
 app.use(bodyParser.json());
 
-app.get('/', req, res => {
-    res.send('Community Groups API')
-})
+app.get('/', (req, res) => {
+    res.send('Community Groups API');
+});
 
 routes.forEach(route => {
     app[route.method](route.path, route.handler);
