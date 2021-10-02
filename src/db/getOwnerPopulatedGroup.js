@@ -1,4 +1,4 @@
-import { db } from './db/db.js';
+import { db } from './db.js';
 import { getMemberPopulatedGroup } from './getMemberPopulatedGroup.js';
 import { getRequestsForGroup } from './getRequestsForGroup.js';
 

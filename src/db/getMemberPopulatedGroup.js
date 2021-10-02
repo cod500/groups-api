@@ -1,4 +1,4 @@
-import { db } from './db/db.js';
+import { db } from './db.js';
 import { getGroup } from './getGroup.js';
 import { getMessagesForGroup } from './getMessagesForGroup.js';
 

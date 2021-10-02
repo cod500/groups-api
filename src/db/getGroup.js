@@ -1,4 +1,4 @@
-import { db } from './db/db.js';
+import { db } from './db.js';
 import { getUser } from './getUser.js';
 
 export const getGroup = async (groupId) => {
