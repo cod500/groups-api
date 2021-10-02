@@ -1,6 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import admin from 'firebase-admin';
+import cors from 'cors';
 import credentials from './credentials.json';
 import { db } from './db/db.js';
 import { routes } from './routes/index.js';
@@ -9,9 +10,9 @@ import dotenv from 'dotenv';
 admin.initializeApp({ credential: admin.credential.cert(credentials) });
 
 const app = express();
+
 dotenv.config();
-
-
+app.use(cors())
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
