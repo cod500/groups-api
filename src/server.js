@@ -2,8 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import * as admin from 'firebase-admin';
 import credentials from './credentials.json';
-import { db } from './db';
-import { routes } from './routes';
+import { db } from './db/index';
+import { routes } from './routes/index.js';
 import dotenv from 'dotenv';
 
 admin.initializeApp({ credential: admin.credential.cert(credentials) });
